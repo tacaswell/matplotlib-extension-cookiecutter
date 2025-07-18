@@ -16,7 +16,7 @@ jobs:
         with:
           persist-credentials: false
       - uses: actions/setup-python@v2
-      - uses: psf/black@stable
+      - uses: psf/black@8a737e727ac5ab2f1d4cf5876720ed276dc8dc4b # 25.1.0
         with:
           options: "--check"
           src: "."
