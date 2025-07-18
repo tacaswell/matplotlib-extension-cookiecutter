@@ -1,5 +1,7 @@
 # heavily based on https://github.com/jupyterlab/jupyterlab-git/blob/v0.22.2/.github/workflows/publish.yml
 name: Publish Package
+permissions:
+  contents: read
 
 on:
   release:
