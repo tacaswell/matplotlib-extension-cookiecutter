@@ -151,5 +151,16 @@ cython_debug/
 [._]sw[a-p]
 [._]*.un~
 
-## vscode
-.vscode
+
+## Editor temporary/working/backup files #
+.#*
+[#]*#
+*~
+*$
+*.bak
+*.kdev4
+.project
+.pydevproject
+*.swp
+.idea
+.vscode/
